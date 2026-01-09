@@ -140,3 +140,10 @@ Copied passwords are automatically cleared after 10 seconds.
 ✅Understanding of encryption and Python security concepts
 
 ✅Clean, modular, and maintainable code
+
+
+
+
+
+✅✅✅✅secret.key is generated locally
+
