@@ -85,6 +85,10 @@ def generate_password():
     password = ''.join(secrets.choice(chars) for _ in range(length))
     print("Generated Password:", password)
 
+
+
+
+
 # ----PASSWORD_MANAGER--------- #
 def add_password():
     site = input("Website: ")
@@ -169,3 +173,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
