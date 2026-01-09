@@ -108,7 +108,7 @@ Choose from the menu:
     
     ✅Exit
     
-✅Passwords are encrypted automatically before storing.
+    ✅Passwords are encrypted automatically before storing.
 
 
 
@@ -116,34 +116,36 @@ Choose from the menu:
 
 🔐 Security Implementation
 
-✅Master Password Hashing:
-The master password is hashed using SHA-256 and stored securely in the database.
+    ✅Master Password Hashing:
+        The master password is hashed using SHA-256 and stored securely in the database.
 
-✅Password Encryption:
-All saved passwords are encrypted using Fernet symmetric encryption.
+    ✅Password Encryption:
+        All saved passwords are encrypted using Fernet symmetric encryption.
 
-✅Encrypted Storage:
-Even if someone accesses the database file, the passwords remain unreadable.
+    ✅Encrypted Storage:
+        Even if someone accesses the database file, the passwords remain unreadable.
 
-✅Clipboard Protection:
-Copied passwords are automatically cleared after 10 seconds.
+    ✅Clipboard Protection:
+        Copied passwords are automatically cleared after 10 seconds.
 
 
 
 
 ✅ Expected Outcomes
 
-✅Secure encrypted password storage
+     ✅Secure encrypted password storage
 
-✅Functional password management system
+     ✅Functional password management system
 
-✅Understanding of encryption and Python security concepts
+     ✅Understanding of encryption and Python security concepts
 
-✅Clean, modular, and maintainable code
-
-
+     ✅Clean, modular, and maintainable code
 
 
 
-✅✅✅✅secret.key is generated locally
+
+
+
+  
+👉✅secret.key is generated locally
 
