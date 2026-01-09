@@ -63,9 +63,12 @@ The goal of this project is to build a secure vault system where:
 
 
 📂 Project Structure
-├── Main.py
-├── README.md
-├── .gitignore
+
+     ├── Main.py
+     ├── README.md
+     ├── .gitignore
+
+
 
 
 
