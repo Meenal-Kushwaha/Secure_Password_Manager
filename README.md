@@ -9,39 +9,39 @@ Developed as part of the Python Development – Foundation Track Internship (Pha
 
 📌 Project Overview
 
-✅The goal of this project is to build a secure vault system where:
+The goal of this project is to build a secure vault system where:
 
-✅Passwords are never stored in plain text.
+     ✅Passwords are never stored in plain text.
 
-✅Only authorized users can access stored credentials.
+     ✅Only authorized users can access stored credentials.
 
-✅Sensitive data is encrypted before saving to the database.
+     ✅Sensitive data is encrypted before saving to the database.
 
-✅Users can generate strong random passwords.
+     ✅Users can generate strong random passwords.
 
-✅Clipboard is automatically cleared after copying a password.
+     ✅Clipboard is automatically cleared after copying a password.
 
 
 
 🚀 Features
 
-✅ Master Password Authentication (SHA-256 Hashing)
+    ✅ Master Password Authentication (SHA-256 Hashing)
 
-✅ Encrypted Password Storage using Fernet
+    ✅ Encrypted Password Storage using Fernet
 
-✅ SQLite Database Storage (vault.db)
+    ✅ SQLite Database Storage (vault.db)
 
-✅Add New Credentials
+    ✅Add New Credentials
 
-✅ View Stored Credentials
+    ✅ View Stored Credentials
 
-✅Delete Credentials
+    ✅Delete Credentials
 
-✅Strong Password Generator
+    ✅Strong Password Generator
 
-✅Clipboard Auto-Clear after 10 seconds
+    ✅Clipboard Auto-Clear after 10 seconds
 
-✅Menu-driven CLI Interface
+    ✅Menu-driven CLI Interface
 
 
 
@@ -49,15 +49,15 @@ Developed as part of the Python Development – Foundation Track Internship (Pha
 
 🛠️ Technologies Used
 
-✅Python 3
+    ✅Python 3
 
-✅SQLite3 Database
+    ✅SQLite3 Database
 
-✅Cryptography Library (Fernet Encryption)
+    ✅Cryptography Library (Fernet Encryption)
 
-✅hashlib (SHA-256 Hashing)
+    ✅hashlib (SHA-256 Hashing)
 
-✅pyperclip (Clipboard Handling)
+    ✅pyperclip (Clipboard Handling)
 
 
 
@@ -74,16 +74,16 @@ Developed as part of the Python Development – Foundation Track Internship (Pha
 ⚙️ Installation & Setup
 
 1️⃣ Clone the Repository
-git clone <your-github-repository-link>
+         git clone <your-github-repository-link>
 
 2️⃣ Navigate into Project Folder
-cd Secure-Password-Manager
+         cd Secure-Password-Manager
 
 3️⃣ Install Required Libraries
-pip install cryptography pyperclip
+         pip install cryptography pyperclip
 
 4️⃣ Run the Application
-python Main.py
+         python Main.py
 
 
 
@@ -91,7 +91,7 @@ python Main.py
 
 ▶️ How to Use
 
-✅Run the application.
+ ✅Run the application.
 
 ✅If no master password exists, you will be asked to create one.
 
