@@ -6,6 +6,7 @@ This project implements secure storage of passwords using Fernet encryption, pro
 Developed as part of the Python Development – Foundation Track Internship (Phase 2 Project).
 
 
+
 📌 Project Overview
 
 The goal of this project is to build a secure vault system where:
@@ -14,6 +15,7 @@ Only authorized users can access stored credentials.
 Sensitive data is encrypted before saving to the database.
 Users can generate strong random passwords.
 Clipboard is automatically cleared after copying a password.
+
 
 
 🚀 Features
@@ -30,6 +32,8 @@ Clipboard is automatically cleared after copying a password.
 
 
 
+
+
 🛠️ Technologies Used
 
 Python 3
@@ -38,10 +42,15 @@ Cryptography Library (Fernet Encryption)
 hashlib (SHA-256 Hashing)
 pyperclip (Clipboard Handling)
 
+
+
+
 📂 Project Structure
 ├── Main.py
 ├── README.md
 ├── .gitignore
+
+
 
 
 
@@ -60,6 +69,8 @@ python Main.py
 
 
 
+
+
 ▶️ How to Use
 
 Run the application.
@@ -72,6 +83,8 @@ Choose from the menu:
     Delete Password
     Exit
 Passwords are encrypted automatically before storing.
+
+
 
 
 
@@ -88,6 +101,8 @@ Even if someone accesses the database file, the passwords remain unreadable.
 
 Clipboard Protection:
 Copied passwords are automatically cleared after 10 seconds.
+
+
 
 
 ✅ Expected Outcomes
